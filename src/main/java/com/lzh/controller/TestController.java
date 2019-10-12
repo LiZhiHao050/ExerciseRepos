@@ -16,6 +16,7 @@ import com.lzh.utils.StringUtils;
 @Controller
 public class TestController {
 	
+	// 前往页面
 	@RequestMapping("toTest.do")
 	public String toTest() {
 		return "Test";
